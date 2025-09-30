@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Child2 = ({selectedOption, setSelectedOption}) => {
+const ChildComponent2 = ({selectedOption, setSelectedOption}) => {
   return (
     <div style={{backgroundColor:'yellow', height:'80px', width:'40vw', fontSize:'40px'}}>
         Child Component 2
@@ -12,4 +12,4 @@ const Child2 = ({selectedOption, setSelectedOption}) => {
   )
 }
 
-export default Child2
+export default ChildComponent2
